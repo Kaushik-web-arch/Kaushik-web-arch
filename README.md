@@ -73,29 +73,29 @@ Context-grounded personal AI assistant that uses professional profile informatio
 
 This index is generated automatically from my public GitHub repositories that contain a README. Featured projects stay pinned above; newly published projects appear here automatically.
 
-#### [Ai Research Agent](https://github.com/Kaushik-web-arch/ai-research-agent) · **Featured**
-An agentic research workspace that converts a question into a structured, source backed Markdown report. The application plans focused searches, collects current web evidence, extracts…
+#### [AI Research Agent](https://github.com/Kaushik-web-arch/ai-research-agent) · **Featured**
+An agentic research workspace that converts a question into a structured, source-backed Markdown report. The application plans focused searches, collects current web evidence, extracts…
 
 `Public repository` · `Python` · [View repository](https://github.com/Kaushik-web-arch/ai-research-agent)
 
 ---
 
-#### [Student Placement Porta](https://github.com/Kaushik-web-arch/student-placement-porta) · **Featured**
-A full stack placement management application that keeps student records, placement drives, attendance, eligibility, and student access synchronized between dedicated administrator and…
+#### [Student Placement Portal](https://github.com/Kaushik-web-arch/student-placement-porta) · **Featured**
+A full-stack placement management application that keeps student records, placement drives, attendance, eligibility, and student access synchronized between dedicated administrator and…
 
 `Public repository` · `Python` · [View repository](https://github.com/Kaushik-web-arch/student-placement-porta)
 
 ---
 
-#### [Ai Digital Twin](https://github.com/Kaushik-web-arch/ai-digital-twin) · **Featured**
+#### [AI Digital Twin — Kaushik Santhosh](https://github.com/Kaushik-web-arch/ai-digital-twin) · **Featured**
 A personal AI assistant that acts as a conversational representation of my professional profile. It uses my résumé/profile context together with Google&#x27;s Gemini model to answer questions…
 
 `Public repository` · `Python` · [View repository](https://github.com/Kaushik-web-arch/ai-digital-twin)
 
 ---
 
-#### [Finsight Personal Finance Intelligence](https://github.com/Kaushik-web-arch/finsight-personal-finance-intelligence) · **Featured**
-A recruiter ready personal finance product with an Executive Fintech interface and a complete data science pipeline. It goes beyond CRUD: data ingestion → feature engineering → EDA →…
+#### [📈 FinSight — Intelligent Personal Finance Tracker](https://github.com/Kaushik-web-arch/finsight-personal-finance-intelligence) · **Featured**
+A recruiter-ready personal finance product with an Executive Fintech interface and a complete data-science pipeline. It goes beyond CRUD: data ingestion → feature engineering → EDA →…
 
 `Public repository` · `Python` · [View repository](https://github.com/Kaushik-web-arch/finsight-personal-finance-intelligence)
 <!-- PROJECTS_AUTO_END -->
