@@ -66,6 +66,16 @@ Context-grounded personal AI assistant that uses professional profile informatio
 
 </td>
 </tr>
+<tr>
+<td colspan="2" valign="top">
+
+#### [05 · Multi-Model SDR Outreach Agent](https://github.com/Kaushik-web-arch/Multi-model-sdr-outreach-agent)
+Agentic SDR workflow where specialized Gemini and Groq agents generate outreach approaches, a manager agent evaluates the drafts, and the selected email moves through human review to Gmail delivery.
+
+`Agentic AI` · `Gemini` · `Groq` · `Gradio` · `Python`
+
+</td>
+</tr>
 </table>
 
 <!-- PROJECTS_AUTO_START -->
@@ -80,6 +90,13 @@ An agentic research workspace that converts a question into a structured, source
 
 ---
 
+#### [Multi-Model SDR Outreach Agent](https://github.com/Kaushik-web-arch/Multi-model-sdr-outreach-agent) · **Featured**
+A multi-model SDR outreach workflow using specialized Gemini and Groq agents, manager-agent evaluation, human review, and Gmail delivery.
+
+`Public repository` · `Python` · [View repository](https://github.com/Kaushik-web-arch/Multi-model-sdr-outreach-agent)
+
+---
+
 #### [Student Placement Portal](https://github.com/Kaushik-web-arch/student-placement-porta) · **Featured**
 A full-stack placement management application that keeps student records, placement drives, attendance, eligibility, and student access synchronized between dedicated administrator and…
 
@@ -88,7 +105,7 @@ A full-stack placement management application that keeps student records, placem
 ---
 
 #### [AI Digital Twin — Kaushik Santhosh](https://github.com/Kaushik-web-arch/ai-digital-twin) · **Featured**
-A personal AI assistant that acts as a conversational representation of my professional profile. It uses my résumé/profile context together with Google&#x27;s Gemini model to answer questions…
+A personal AI assistant that acts as a conversational representation of my professional profile. It uses my résumé/profile context together with Google's Gemini model to answer questions…
 
 `Public repository` · `Python` · [View repository](https://github.com/Kaushik-web-arch/ai-digital-twin)
 
