@@ -83,17 +83,17 @@ Agentic SDR workflow where specialized Gemini and Groq agents generate outreach 
 
 This index is generated automatically from my public GitHub repositories that contain a README. Featured projects stay pinned above; newly published projects appear here automatically.
 
+#### [Multi-Model SDR Outreach Agent](https://github.com/Kaushik-web-arch/Multi-model-sdr-outreach-agent)
+A focused agentic AI mini project that explores how multiple LLMs can work together inside an automated sales outreach workflow.
+
+`Public repository` · `Python` · [View repository](https://github.com/Kaushik-web-arch/Multi-model-sdr-outreach-agent)
+
+---
+
 #### [AI Research Agent](https://github.com/Kaushik-web-arch/ai-research-agent) · **Featured**
 An agentic research workspace that converts a question into a structured, source-backed Markdown report. The application plans focused searches, collects current web evidence, extracts…
 
 `Public repository` · `Python` · [View repository](https://github.com/Kaushik-web-arch/ai-research-agent)
-
----
-
-#### [Multi-Model SDR Outreach Agent](https://github.com/Kaushik-web-arch/Multi-model-sdr-outreach-agent) · **Featured**
-A multi-model SDR outreach workflow using specialized Gemini and Groq agents, manager-agent evaluation, human review, and Gmail delivery.
-
-`Public repository` · `Python` · [View repository](https://github.com/Kaushik-web-arch/Multi-model-sdr-outreach-agent)
 
 ---
 
@@ -105,7 +105,7 @@ A full-stack placement management application that keeps student records, placem
 ---
 
 #### [AI Digital Twin — Kaushik Santhosh](https://github.com/Kaushik-web-arch/ai-digital-twin) · **Featured**
-A personal AI assistant that acts as a conversational representation of my professional profile. It uses my résumé/profile context together with Google's Gemini model to answer questions…
+A personal AI assistant that acts as a conversational representation of my professional profile. It uses my résumé/profile context together with Google&#x27;s Gemini model to answer questions…
 
 `Public repository` · `Python` · [View repository](https://github.com/Kaushik-web-arch/ai-digital-twin)
 
