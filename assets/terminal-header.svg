@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="170" viewBox="0 0 860 170">
+<style>
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace}.fg{fill:#24292f}.muted{fill:#57606a}.green{fill:#1a7f37}@media(prefers-color-scheme:dark){.fg{fill:#e6edf3}.muted{fill:#8b949e}.green{fill:#3fb950}}
+</style>
+<circle cx="24" cy="22" r="6" fill="#ff5f56"/><circle cx="44" cy="22" r="6" fill="#ffbd2e"/><circle cx="64" cy="22" r="6" fill="#27c93f"/>
+<text x="22" y="58" font-size="15" class="muted">kaushik@github:~$ ./hello.sh</text>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin=".25s" dur=".01s" fill="freeze"/><text x="22" y="101" font-size="31" font-weight="700" class="fg">Kaushik Santhosh</text></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin=".65s" dur=".25s" fill="freeze"/><text x="22" y="132" font-size="17" class="green">Computer Science (Data Science) Undergraduate</text></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1s" dur=".25s" fill="freeze"/><text x="22" y="157" font-size="16" class="muted">Software Development &amp; AI Enthusiast · Bengaluru, India</text></g>
+<rect x="574" y="145" width="10" height="18" class="green"><animate attributeName="opacity" values="1;0;1" dur=".9s" repeatCount="indefinite"/></rect>
+</svg>
