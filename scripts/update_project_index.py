@@ -14,13 +14,11 @@ README = ROOT / "README.md"
 START = "<!-- PROJECTS_AUTO_START -->"
 END = "<!-- PROJECTS_AUTO_END -->"
 
-# Repositories that should never be shown in the public portfolio index.
 EXCLUDE = {
-    USERNAME,       # the profile README repository itself
-    "event-program",  # intentionally excluded from the main profile
+    USERNAME,
+    "event-program",
 }
 
-# These remain pinned in the hand-designed Featured Projects section above.
 FEATURED = {
     "ai-research-agent",
     "finsight-personal-finance-intelligence",
@@ -47,9 +45,19 @@ def clean_markdown(text: str) -> str:
     text = re.sub(r"<[^>]+>", " ", text)
     text = re.sub(r"!\[[^\]]*\]\([^)]*\)", " ", text)
     text = re.sub(r"\[([^\]]+)\]\([^)]*\)", r"\1", text)
-    text = re.sub(r"[*_`>#~-]", " ", text)
+    text = re.sub(r"[*_`>#~]", " ", text)
     text = re.sub(r"\s+", " ", text).strip()
     return text
+
+
+def readme_title(markdown: str, fallback: str) -> str:
+    for raw in markdown.splitlines():
+        line = raw.strip()
+        if line.startswith("# "):
+            title = clean_markdown(line[2:])
+            if title:
+                return title
+    return fallback.replace("-", " ").replace("_", " ").title()
 
 
 def summary_from_readme(markdown: str) -> str | None:
@@ -59,8 +67,6 @@ def summary_from_readme(markdown: str) -> str | None:
         if cleaned:
             return cleaned
 
-    # Use the first real prose paragraph. Skip headings, badges, images,
-    # code fences, tables, list items and short label-like lines.
     in_code = False
     paragraphs: list[str] = []
     current: list[str] = []
@@ -127,14 +133,14 @@ def get_readme(repo_name: str) -> str | None:
 
 
 def repo_summary(repo: dict, readme: str) -> str:
-    marked_or_readme = summary_from_readme(readme)
+    from_readme = summary_from_readme(readme)
     description = clean_markdown(repo.get("description") or "")
-    return trim(marked_or_readme or description or "README available — open the repository for project details.")
+    return trim(from_readme or description or "README available — open the repository for project details.")
 
 
-def render_repo(repo: dict, summary: str) -> str:
+def render_repo(repo: dict, readme: str, summary: str) -> str:
     name = repo["name"]
-    display_name = name.replace("-", " ").replace("_", " ").title()
+    display_name = readme_title(readme, name)
     url = repo["html_url"]
     language = repo.get("language") or ""
     tag = f" · `{html.escape(language)}`" if language else ""
@@ -146,11 +152,11 @@ def render_repo(repo: dict, summary: str) -> str:
     )
 
 
-def fetch_projects() -> list[tuple[dict, str]]:
+def fetch_projects() -> list[tuple[dict, str, str]]:
     repos = get_json(
         f"{API}/users/{USERNAME}/repos?per_page=100&type=owner&sort=updated&direction=desc"
     )
-    projects: list[tuple[dict, str]] = []
+    projects: list[tuple[dict, str, str]] = []
     for repo in repos:
         name = repo.get("name", "")
         if name in EXCLUDE or repo.get("fork") or repo.get("archived") or repo.get("private"):
@@ -158,15 +164,15 @@ def fetch_projects() -> list[tuple[dict, str]]:
         readme = get_readme(name)
         if not readme:
             continue
-        projects.append((repo, repo_summary(repo, readme)))
+        projects.append((repo, readme, repo_summary(repo, readme)))
     return projects
 
 
-def build_section(projects: list[tuple[dict, str]]) -> str:
+def build_section(projects: list[tuple[dict, str, str]]) -> str:
     if not projects:
         body = "_No eligible public project repositories with a README were found._"
     else:
-        cards = [render_repo(repo, summary) for repo, summary in projects]
+        cards = [render_repo(repo, readme, summary) for repo, readme, summary in projects]
         body = "\n\n---\n\n".join(cards)
 
     return (
