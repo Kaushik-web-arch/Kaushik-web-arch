@@ -68,6 +68,38 @@ Context-grounded personal AI assistant that uses professional profile informatio
 </tr>
 </table>
 
+<!-- PROJECTS_AUTO_START -->
+### `kaushik@github:~$ ls ./all-projects`
+
+This index is generated automatically from my public GitHub repositories that contain a README. Featured projects stay pinned above; newly published projects appear here automatically.
+
+#### [Ai Research Agent](https://github.com/Kaushik-web-arch/ai-research-agent) · **Featured**
+An agentic research workspace that converts a question into a structured, source-backed Markdown report. The application plans focused searches, collects current web evidence, extracts bounded page content…
+
+`Public repository` · `Python` · [View repository](https://github.com/Kaushik-web-arch/ai-research-agent)
+
+---
+
+#### [Finsight Personal Finance Intelligence](https://github.com/Kaushik-web-arch/finsight-personal-finance-intelligence) · **Featured**
+A recruiter-ready personal finance product with an Executive Fintech interface and a complete data-science pipeline. It goes beyond CRUD: data ingestion → feature engineering → EDA → decision support…
+
+`Public repository` · `Python` · [View repository](https://github.com/Kaushik-web-arch/finsight-personal-finance-intelligence)
+
+---
+
+#### [Student Placement Porta](https://github.com/Kaushik-web-arch/student-placement-porta) · **Featured**
+A full-stack placement management application that keeps student records, placement drives, attendance, eligibility, and student access synchronized between dedicated administrator and student portals.
+
+`Public repository` · `HTML` · [View repository](https://github.com/Kaushik-web-arch/student-placement-porta)
+
+---
+
+#### [Ai Digital Twin](https://github.com/Kaushik-web-arch/ai-digital-twin) · **Featured**
+A personal AI assistant that acts as a conversational representation of my professional profile. It uses my résumé/profile context together with Google's Gemini model to answer questions about my skills…
+
+`Public repository` · `Python` · [View repository](https://github.com/Kaushik-web-arch/ai-digital-twin)
+<!-- PROJECTS_AUTO_END -->
+
 ### `kaushik@github:~$ cat ./in-progress/zen-sports.txt`
 
 **Zen Sports & Fitness Management System** — a Streamlit system for student management, belt gradings, certificate templates, field mapping, and certificate issuance. The repository is currently private while the project is being tested.
@@ -89,6 +121,6 @@ Context-grounded personal AI assistant that uses professional profile informatio
 
 <br><br>
 
-<sub>Profile art is generated in this repository. Contribution data refreshes automatically every day with GitHub Actions.</sub>
+<sub>Profile art, contribution data, and the public project index refresh automatically with GitHub Actions.</sub>
 
 </div>
