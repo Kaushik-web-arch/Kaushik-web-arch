@@ -83,6 +83,13 @@ Agentic SDR workflow where specialized Gemini and Groq agents generate outreach 
 
 This index is generated automatically from my public GitHub repositories that contain a README. Featured projects stay pinned above; newly published projects appear here automatically.
 
+#### [Sentinel — SIH26103](https://github.com/Kaushik-web-arch/sih103)
+Infrastructure project monitoring from monthly government reports. Sentinel turns reported project records into searchable snapshots, monthly history, portfolio comparisons, and…
+
+`Public repository` · `Python` · [View repository](https://github.com/Kaushik-web-arch/sih103)
+
+---
+
 #### [AI Research Agent](https://github.com/Kaushik-web-arch/ai-research-agent) · **Featured**
 An agentic research workspace that converts a question into a structured, source-backed Markdown report. The application plans focused searches, collects current web evidence, extracts…
 
