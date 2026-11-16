@@ -83,6 +83,13 @@ Agentic SDR workflow where specialized Gemini and Groq agents generate outreach 
 
 This index is generated automatically from my public GitHub repositories that contain a README. Featured projects stay pinned above; newly published projects appear here automatically.
 
+#### [DAEMON HOUR — Android Hackathon Workspace](https://github.com/Kaushik-web-arch/DAEMON-HOUR)
+Shared repository for a three-person Android hackathon team.
+
+`Public repository` · [View repository](https://github.com/Kaushik-web-arch/DAEMON-HOUR)
+
+---
+
 #### [AI Digital Twin — Kaushik Santhosh](https://github.com/Kaushik-web-arch/ai-digital-twin) · **Featured**
 A personal AI assistant that acts as a conversational representation of my professional profile. It uses my résumé/profile context together with Google&#x27;s Gemini model to answer questions…
 
