@@ -67,12 +67,38 @@ Context-grounded personal AI assistant that uses professional profile informatio
 </td>
 </tr>
 <tr>
-<td colspan="2" valign="top">
+<td width="50%" valign="top">
 
 #### [05 · Multi-Model SDR Outreach Agent](https://github.com/Kaushik-web-arch/Multi-model-sdr-outreach-agent)
 Agentic SDR workflow where specialized Gemini and Groq agents generate outreach approaches, a manager agent evaluates the drafts, and the selected email moves through human review to Gmail delivery.
 
 `Agentic AI` · `Gemini` · `Groq` · `Gradio` · `Python`
+
+</td>
+<td width="50%" valign="top">
+
+#### [06 · Battery Monitoring App](https://github.com/Kaushik-web-arch/Battery-Monitoring-App)
+Android hackathon app that measures screen-off battery drain, flags sessions above a user-set threshold, and saves recent readings on the device.
+
+`Kotlin` · `Jetpack Compose` · `Android SDK`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### [07 · Sentinel (SIH26103)](https://github.com/Kaushik-web-arch/sih103)
+Team project that turns monthly government infrastructure reports into searchable project records, progress histories, and portfolio comparisons.
+
+`React` · `FastAPI` · `PostgreSQL`
+
+</td>
+<td width="50%" valign="top">
+
+#### 08 · Zen Sports & Fitness
+Paid client project delivered for a sports academy. The system manages student records, belt gradings, and certificate issuance.
+
+`Streamlit` · `SQLAlchemy` · `SQLite`
 
 </td>
 </tr>
@@ -130,12 +156,6 @@ Infrastructure project monitoring from monthly government reports. Sentinel turn
 
 `Public repository` · `Python` · [View repository](https://github.com/Kaushik-web-arch/sih103)
 <!-- PROJECTS_AUTO_END -->
-
-### `kaushik@github:~$ cat ./in-progress/zen-sports.txt`
-
-**Zen Sports & Fitness Management System** — a Streamlit system for student management, belt gradings, certificate templates, field mapping, and certificate issuance. The repository is currently private while the project is being tested.
-
-`Streamlit` · `PostgreSQL` · `Supabase` · `Railway`
 
 <div align="center">
 
