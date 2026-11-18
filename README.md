@@ -36,7 +36,7 @@
 #### 01 · Zen Sports & Fitness
 Paid client project delivered for a sports academy. The system manages student records, belt gradings, and certificate issuance.
 
-`Streamlit` · `SQLAlchemy` · `SQLite`
+`Streamlit` · `SQLAlchemy` · `Supabase`
 
 </td>
 <td width="50%" valign="top">
