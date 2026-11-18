@@ -10,14 +10,14 @@ text{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation M
 <text x="18" y="27" font-size="13" class="green">kaushik@github</text><text x="18" y="48" font-size="12" class="muted">────────────────────────────────────────────────────</text>
 <g font-size="12.5">
 <g class="row" style="animation-delay:.10s"><text x="18" y="76" class="green">role</text><text x="116" y="76" class="fg">CS (Data Science) Undergraduate</text></g>
-<g class="row" style="animation-delay:.18s"><text x="18" y="103" class="green">focus</text><text x="116" y="103" class="fg">Software Development + AI</text></g>
-<g class="row" style="animation-delay:.26s"><text x="18" y="130" class="green">languages</text><text x="116" y="130" class="fg">Python · Java · C · SQL</text></g>
-<g class="row" style="animation-delay:.34s"><text x="18" y="157" class="green">core_cs</text><text x="116" y="157" class="fg">DSA · OOP · DBMS</text></g>
-<g class="row" style="animation-delay:.42s"><text x="18" y="184" class="green">backend</text><text x="116" y="184" class="fg">Flask · Streamlit</text></g>
-<g class="row" style="animation-delay:.50s"><text x="18" y="211" class="green">databases</text><text x="116" y="211" class="fg">MySQL · SQLite · PostgreSQL</text></g>
-<g class="row" style="animation-delay:.58s"><text x="18" y="238" class="green">ai_ml</text><text x="116" y="238" class="fg">Machine Learning · LLMs · Agentic AI</text></g>
-<g class="row" style="animation-delay:.66s"><text x="18" y="265" class="green">tools</text><text x="116" y="265" class="fg">Git · GitHub · VS Code</text></g>
-<g class="row" style="animation-delay:.74s"><text x="18" y="292" class="green">deploy</text><text x="116" y="292" class="fg">Railway · Supabase</text></g>
+<g class="row" style="animation-delay:.18s"><text x="18" y="103" class="green">focus</text><text x="116" y="103" class="fg">GenAI Applications · Backend Development</text></g>
+<g class="row" style="animation-delay:.26s"><text x="18" y="130" class="green">languages</text><text x="116" y="130" class="fg">Python · Java (Fundamentals) · C · SQL</text></g>
+<g class="row" style="animation-delay:.34s"><text x="18" y="157" class="green">ai</text><text x="116" y="157" class="fg">Gemini API · LLM Integration</text></g>
+<g class="row" style="animation-delay:.42s"><text x="18" y="184" class="green">data</text><text x="116" y="184" class="fg">Pandas · NumPy · Scikit-learn · Plotly</text></g>
+<g class="row" style="animation-delay:.50s"><text x="18" y="211" class="green">frameworks</text><text x="116" y="211" class="fg">Streamlit · Gradio · SQLAlchemy</text></g>
+<g class="row" style="animation-delay:.58s"><text x="18" y="238" class="green">databases</text><text x="116" y="238" class="fg">PostgreSQL · MySQL · SQLite</text></g>
+<g class="row" style="animation-delay:.66s"><text x="18" y="265" class="green">android</text><text x="116" y="265" class="fg">Kotlin · Jetpack Compose</text></g>
+<g class="row" style="animation-delay:.74s"><text x="18" y="292" class="green">tools</text><text x="116" y="292" class="fg">Git · GitHub</text></g>
 <g class="row" style="animation-delay:.82s"><text x="18" y="319" class="green">location</text><text x="116" y="319" class="fg">Bengaluru, India</text></g>
 </g><rect x="18" y="338" width="8" height="13" class="green"><animate attributeName="opacity" values="1;0;1" dur=".9s" repeatCount="indefinite"/></rect></svg>'''
 
