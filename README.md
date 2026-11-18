@@ -109,8 +109,15 @@ Paid client project delivered for a sports academy. The system manages student r
 
 This index is generated automatically from my public GitHub repositories that contain a README. Featured projects stay pinned above; newly published projects appear here automatically.
 
-#### [DAEMON HOUR — Android Hackathon Workspace](https://github.com/Kaushik-web-arch/DAEMON-HOUR)
-Shared repository for a three-person Android hackathon team.
+#### [Battery Monitoring App](https://github.com/Kaushik-web-arch/Battery-Monitoring-App)
+An Android app that measures how much battery a phone loses while its screen is off. It shows the battery level before and after each session, the elapsed time, and the estimated drain in…
+
+`Public repository` · `Kotlin` · [View repository](https://github.com/Kaushik-web-arch/Battery-Monitoring-App)
+
+---
+
+#### [Ghost Drain Hunter](https://github.com/Kaushik-web-arch/DAEMON-HOUR)
+Ghost Drain Hunter records the battery level when the screen turns off and when it turns on again. It calculates the battery percentage points lost per hour, compares the result with a…
 
 `Public repository` · [View repository](https://github.com/Kaushik-web-arch/DAEMON-HOUR)
 
@@ -151,7 +158,7 @@ An agentic research workspace that converts a question into a structured, source
 
 ---
 
-#### [Sentinel — SIH26103](https://github.com/Kaushik-web-arch/sih103)
+#### [Sih103](https://github.com/Kaushik-web-arch/sih103)
 Infrastructure project monitoring from monthly government reports. Sentinel turns reported project records into searchable snapshots, monthly history, portfolio comparisons, and…
 
 `Public repository` · `Python` · [View repository](https://github.com/Kaushik-web-arch/sih103)
