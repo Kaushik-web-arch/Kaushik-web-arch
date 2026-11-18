@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/terminal-header.svg" width="860" alt="Kaushik Santhosh — Computer Science (Data Science) Undergraduate, Software Development and AI Enthusiast" />
+<img src="./assets/terminal-header.svg" width="660" alt="Kaushik Santhosh — Computer Science (Data Science) Undergraduate, Software Development and AI Enthusiast" />
 
 <br>
 
@@ -14,16 +14,11 @@
 
 <h3><code>kaushik@github:~$ whoami</code></h3>
 
-<table>
-<tr>
-<td valign="top" width="350">
-<img src="./assets/kaushik-ascii.svg" width="350" alt="Animated ASCII portrait of Kaushik Santhosh" />
-</td>
-<td valign="top" width="510">
-<img src="./assets/info-card.svg" width="510" alt="Kaushik Santhosh terminal-style profile card" />
-</td>
-</tr>
-</table>
+<img src="./assets/info-card.svg" width="640" alt="Kaushik Santhosh terminal-style profile card" />
+
+<br>
+
+<img src="./assets/kaushik-ascii.svg" width="180" alt="Animated ASCII portrait of Kaushik Santhosh" />
 
 </div>
 
