@@ -33,51 +33,33 @@
 <tr>
 <td width="50%" valign="top">
 
-#### [01 · AI Research Agent](https://github.com/Kaushik-web-arch/ai-research-agent)
+#### 01 · Zen Sports & Fitness
+Paid client project delivered for a sports academy. The system manages student records, belt gradings, and certificate issuance.
+
+`Streamlit` · `SQLAlchemy` · `SQLite`
+
+</td>
+<td width="50%" valign="top">
+
+#### [02 · AI Research Agent](https://github.com/Kaushik-web-arch/ai-research-agent)
 Agentic research workspace that plans focused searches, gathers live web evidence, and produces structured source-backed reports with local caching.
 
 `Agentic AI` · `Gemini API` · `Python`
 
 </td>
-<td width="50%" valign="top">
-
-#### [02 · FinSight](https://github.com/Kaushik-web-arch/finsight-personal-finance-intelligence)
-Personal-finance intelligence product spanning data ingestion, EDA, decision support, forecasting, risk classification, and anomaly detection.
-
-`Machine Learning` · `Streamlit` · `Python`
-
-</td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-#### [03 · Student Placement Portal](https://github.com/Kaushik-web-arch/student-placement-porta)
-Full-stack placement management system that keeps student records, placement drives, attendance, eligibility, and student access synchronized.
+#### [03 · Sentinel (SIH26103)](https://github.com/Kaushik-web-arch/sih103)
+Team project that turns monthly government infrastructure reports into searchable project records, progress histories, and portfolio comparisons.
 
-`Flask` · `MySQL` · `Python`
-
-</td>
-<td width="50%" valign="top">
-
-#### [04 · AI Digital Twin](https://github.com/Kaushik-web-arch/ai-digital-twin)
-Context-grounded personal AI assistant that uses professional profile information with Gemini to answer questions about my background and projects.
-
-`LLMs` · `Gemini API` · `Python`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### [05 · Multi-Model SDR Outreach Agent](https://github.com/Kaushik-web-arch/Multi-model-sdr-outreach-agent)
-Agentic SDR workflow where specialized Gemini and Groq agents generate outreach approaches, a manager agent evaluates the drafts, and the selected email moves through human review to Gmail delivery.
-
-`Agentic AI` · `Gemini` · `Groq` · `Gradio` · `Python`
+`React` · `FastAPI` · `PostgreSQL`
 
 </td>
 <td width="50%" valign="top">
 
-#### [06 · Battery Monitoring App](https://github.com/Kaushik-web-arch/Battery-Monitoring-App)
+#### [04 · Battery Monitoring App](https://github.com/Kaushik-web-arch/Battery-Monitoring-App)
 Android hackathon app that measures screen-off battery drain, flags sessions above a user-set threshold, and saves recent readings on the device.
 
 `Kotlin` · `Jetpack Compose` · `Android SDK`
@@ -87,18 +69,36 @@ Android hackathon app that measures screen-off battery drain, flags sessions abo
 <tr>
 <td width="50%" valign="top">
 
-#### [07 · Sentinel (SIH26103)](https://github.com/Kaushik-web-arch/sih103)
-Team project that turns monthly government infrastructure reports into searchable project records, progress histories, and portfolio comparisons.
+#### [05 · AI Digital Twin](https://github.com/Kaushik-web-arch/ai-digital-twin)
+Context-grounded personal AI assistant that uses professional profile information with Gemini to answer questions about my background and projects.
 
-`React` · `FastAPI` · `PostgreSQL`
+`LLMs` · `Gemini API` · `Python`
 
 </td>
 <td width="50%" valign="top">
 
-#### 08 · Zen Sports & Fitness
-Paid client project delivered for a sports academy. The system manages student records, belt gradings, and certificate issuance.
+#### [06 · FinSight](https://github.com/Kaushik-web-arch/finsight-personal-finance-intelligence)
+Personal-finance intelligence product spanning data ingestion, EDA, decision support, forecasting, risk classification, and anomaly detection.
 
-`Streamlit` · `SQLAlchemy` · `SQLite`
+`Machine Learning` · `Streamlit` · `Python`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### [07 · Student Placement Portal](https://github.com/Kaushik-web-arch/student-placement-porta)
+Full-stack placement management system that keeps student records, placement drives, attendance, eligibility, and student access synchronized.
+
+`Flask` · `MySQL` · `Python`
+
+</td>
+<td width="50%" valign="top">
+
+#### [08 · Multi-Model SDR Outreach Agent](https://github.com/Kaushik-web-arch/Multi-model-sdr-outreach-agent)
+Agentic SDR workflow where specialized Gemini and Groq agents generate outreach approaches, a manager agent evaluates the drafts, and the selected email moves through human review to Gmail delivery.
+
+`Agentic AI` · `Gemini` · `Groq` · `Gradio` · `Python`
 
 </td>
 </tr>
